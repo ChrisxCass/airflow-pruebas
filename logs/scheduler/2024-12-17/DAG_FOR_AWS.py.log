@@ -1,0 +1,188 @@
+[2024-12-17T14:42:58.151+0000] {processor.py:186} INFO - Started process (PID=59) to work on /opt/airflow/dags/DAG_FOR_AWS.py
+[2024-12-17T14:42:58.152+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/DAG_FOR_AWS.py for tasks to queue
+[2024-12-17T14:42:58.154+0000] {logging_mixin.py:190} INFO - [2024-12-17T14:42:58.154+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/DAG_FOR_AWS.py
+[2024-12-17T14:42:58.184+0000] {processor.py:925} INFO - DAG(s) 'MI_PRIMER_DAG' retrieved from /opt/airflow/dags/DAG_FOR_AWS.py
+[2024-12-17T14:42:58.204+0000] {logging_mixin.py:190} INFO - [2024-12-17T14:42:58.204+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-17T14:42:58.235+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/DAG_FOR_AWS.py took 0.089 seconds
+[2024-12-17T14:43:28.537+0000] {processor.py:186} INFO - Started process (PID=124) to work on /opt/airflow/dags/DAG_FOR_AWS.py
+[2024-12-17T14:43:28.538+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/DAG_FOR_AWS.py for tasks to queue
+[2024-12-17T14:43:28.539+0000] {logging_mixin.py:190} INFO - [2024-12-17T14:43:28.539+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/DAG_FOR_AWS.py
+[2024-12-17T14:43:28.560+0000] {processor.py:925} INFO - DAG(s) 'MI_PRIMER_DAG' retrieved from /opt/airflow/dags/DAG_FOR_AWS.py
+[2024-12-17T14:43:28.569+0000] {logging_mixin.py:190} INFO - [2024-12-17T14:43:28.569+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-17T14:43:28.585+0000] {logging_mixin.py:190} INFO - [2024-12-17T14:43:28.585+0000] {dag.py:4180} INFO - Setting next_dagrun for MI_PRIMER_DAG to 2024-12-17 09:00:00+00:00, run_after=2024-12-18 09:00:00+00:00
+[2024-12-17T14:43:28.598+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/DAG_FOR_AWS.py took 0.064 seconds
+[2024-12-17T14:43:59.062+0000] {processor.py:186} INFO - Started process (PID=189) to work on /opt/airflow/dags/DAG_FOR_AWS.py
+[2024-12-17T14:43:59.062+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/DAG_FOR_AWS.py for tasks to queue
+[2024-12-17T14:43:59.064+0000] {logging_mixin.py:190} INFO - [2024-12-17T14:43:59.064+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/DAG_FOR_AWS.py
+[2024-12-17T14:43:59.087+0000] {processor.py:925} INFO - DAG(s) 'MI_PRIMER_DAG' retrieved from /opt/airflow/dags/DAG_FOR_AWS.py
+[2024-12-17T14:43:59.098+0000] {logging_mixin.py:190} INFO - [2024-12-17T14:43:59.098+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-17T14:43:59.115+0000] {logging_mixin.py:190} INFO - [2024-12-17T14:43:59.115+0000] {dag.py:4180} INFO - Setting next_dagrun for MI_PRIMER_DAG to 2024-12-17 09:00:00+00:00, run_after=2024-12-18 09:00:00+00:00
+[2024-12-17T14:43:59.129+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/DAG_FOR_AWS.py took 0.072 seconds
+[2024-12-17T14:44:29.381+0000] {processor.py:186} INFO - Started process (PID=254) to work on /opt/airflow/dags/DAG_FOR_AWS.py
+[2024-12-17T14:44:29.381+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/DAG_FOR_AWS.py for tasks to queue
+[2024-12-17T14:44:29.382+0000] {logging_mixin.py:190} INFO - [2024-12-17T14:44:29.382+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/DAG_FOR_AWS.py
+[2024-12-17T14:44:29.402+0000] {processor.py:925} INFO - DAG(s) 'MI_PRIMER_DAG' retrieved from /opt/airflow/dags/DAG_FOR_AWS.py
+[2024-12-17T14:44:29.411+0000] {logging_mixin.py:190} INFO - [2024-12-17T14:44:29.411+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-17T14:44:29.426+0000] {logging_mixin.py:190} INFO - [2024-12-17T14:44:29.426+0000] {dag.py:4180} INFO - Setting next_dagrun for MI_PRIMER_DAG to 2024-12-17 09:00:00+00:00, run_after=2024-12-18 09:00:00+00:00
+[2024-12-17T14:44:29.438+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/DAG_FOR_AWS.py took 0.060 seconds
+[2024-12-17T14:44:59.569+0000] {processor.py:186} INFO - Started process (PID=319) to work on /opt/airflow/dags/DAG_FOR_AWS.py
+[2024-12-17T14:44:59.570+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/DAG_FOR_AWS.py for tasks to queue
+[2024-12-17T14:44:59.571+0000] {logging_mixin.py:190} INFO - [2024-12-17T14:44:59.571+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/DAG_FOR_AWS.py
+[2024-12-17T14:44:59.591+0000] {processor.py:925} INFO - DAG(s) 'MI_PRIMER_DAG' retrieved from /opt/airflow/dags/DAG_FOR_AWS.py
+[2024-12-17T14:44:59.600+0000] {logging_mixin.py:190} INFO - [2024-12-17T14:44:59.600+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-17T14:44:59.615+0000] {logging_mixin.py:190} INFO - [2024-12-17T14:44:59.615+0000] {dag.py:4180} INFO - Setting next_dagrun for MI_PRIMER_DAG to 2024-12-17 09:00:00+00:00, run_after=2024-12-18 09:00:00+00:00
+[2024-12-17T14:44:59.628+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/DAG_FOR_AWS.py took 0.062 seconds
+[2024-12-17T14:45:29.742+0000] {processor.py:186} INFO - Started process (PID=384) to work on /opt/airflow/dags/DAG_FOR_AWS.py
+[2024-12-17T14:45:29.742+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/DAG_FOR_AWS.py for tasks to queue
+[2024-12-17T14:45:29.744+0000] {logging_mixin.py:190} INFO - [2024-12-17T14:45:29.743+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/DAG_FOR_AWS.py
+[2024-12-17T14:45:29.763+0000] {processor.py:925} INFO - DAG(s) 'MI_PRIMER_DAG' retrieved from /opt/airflow/dags/DAG_FOR_AWS.py
+[2024-12-17T14:45:29.772+0000] {logging_mixin.py:190} INFO - [2024-12-17T14:45:29.772+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-17T14:45:29.786+0000] {logging_mixin.py:190} INFO - [2024-12-17T14:45:29.786+0000] {dag.py:4180} INFO - Setting next_dagrun for MI_PRIMER_DAG to 2024-12-17 09:00:00+00:00, run_after=2024-12-18 09:00:00+00:00
+[2024-12-17T14:45:29.799+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/DAG_FOR_AWS.py took 0.061 seconds
+[2024-12-17T14:46:00.035+0000] {processor.py:186} INFO - Started process (PID=449) to work on /opt/airflow/dags/DAG_FOR_AWS.py
+[2024-12-17T14:46:00.036+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/DAG_FOR_AWS.py for tasks to queue
+[2024-12-17T14:46:00.037+0000] {logging_mixin.py:190} INFO - [2024-12-17T14:46:00.037+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/DAG_FOR_AWS.py
+[2024-12-17T14:46:00.056+0000] {processor.py:925} INFO - DAG(s) 'MI_PRIMER_DAG' retrieved from /opt/airflow/dags/DAG_FOR_AWS.py
+[2024-12-17T14:46:00.065+0000] {logging_mixin.py:190} INFO - [2024-12-17T14:46:00.065+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-17T14:46:00.079+0000] {logging_mixin.py:190} INFO - [2024-12-17T14:46:00.079+0000] {dag.py:4180} INFO - Setting next_dagrun for MI_PRIMER_DAG to 2024-12-17 09:00:00+00:00, run_after=2024-12-18 09:00:00+00:00
+[2024-12-17T14:46:00.091+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/DAG_FOR_AWS.py took 0.059 seconds
+[2024-12-17T14:46:30.274+0000] {processor.py:186} INFO - Started process (PID=514) to work on /opt/airflow/dags/DAG_FOR_AWS.py
+[2024-12-17T14:46:30.275+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/DAG_FOR_AWS.py for tasks to queue
+[2024-12-17T14:46:30.278+0000] {logging_mixin.py:190} INFO - [2024-12-17T14:46:30.278+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/DAG_FOR_AWS.py
+[2024-12-17T14:46:30.316+0000] {processor.py:925} INFO - DAG(s) 'MI_PRIMER_DAG' retrieved from /opt/airflow/dags/DAG_FOR_AWS.py
+[2024-12-17T14:46:30.336+0000] {logging_mixin.py:190} INFO - [2024-12-17T14:46:30.335+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-17T14:46:30.370+0000] {logging_mixin.py:190} INFO - [2024-12-17T14:46:30.369+0000] {dag.py:4180} INFO - Setting next_dagrun for MI_PRIMER_DAG to 2024-12-17 09:00:00+00:00, run_after=2024-12-18 09:00:00+00:00
+[2024-12-17T14:46:30.395+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/DAG_FOR_AWS.py took 0.127 seconds
+[2024-12-17T14:47:00.829+0000] {processor.py:186} INFO - Started process (PID=579) to work on /opt/airflow/dags/DAG_FOR_AWS.py
+[2024-12-17T14:47:00.829+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/DAG_FOR_AWS.py for tasks to queue
+[2024-12-17T14:47:00.831+0000] {logging_mixin.py:190} INFO - [2024-12-17T14:47:00.831+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/DAG_FOR_AWS.py
+[2024-12-17T14:47:00.853+0000] {processor.py:925} INFO - DAG(s) 'MI_PRIMER_DAG' retrieved from /opt/airflow/dags/DAG_FOR_AWS.py
+[2024-12-17T14:47:00.865+0000] {logging_mixin.py:190} INFO - [2024-12-17T14:47:00.865+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-17T14:47:00.882+0000] {logging_mixin.py:190} INFO - [2024-12-17T14:47:00.882+0000] {dag.py:4180} INFO - Setting next_dagrun for MI_PRIMER_DAG to 2024-12-17 09:00:00+00:00, run_after=2024-12-18 09:00:00+00:00
+[2024-12-17T14:47:00.896+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/DAG_FOR_AWS.py took 0.070 seconds
+[2024-12-17T14:47:31.597+0000] {processor.py:186} INFO - Started process (PID=644) to work on /opt/airflow/dags/DAG_FOR_AWS.py
+[2024-12-17T14:47:31.598+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/DAG_FOR_AWS.py for tasks to queue
+[2024-12-17T14:47:31.600+0000] {logging_mixin.py:190} INFO - [2024-12-17T14:47:31.599+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/DAG_FOR_AWS.py
+[2024-12-17T14:47:31.623+0000] {processor.py:925} INFO - DAG(s) 'MI_PRIMER_DAG' retrieved from /opt/airflow/dags/DAG_FOR_AWS.py
+[2024-12-17T14:47:31.633+0000] {logging_mixin.py:190} INFO - [2024-12-17T14:47:31.633+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-17T14:47:31.650+0000] {logging_mixin.py:190} INFO - [2024-12-17T14:47:31.649+0000] {dag.py:4180} INFO - Setting next_dagrun for MI_PRIMER_DAG to 2024-12-17 09:00:00+00:00, run_after=2024-12-18 09:00:00+00:00
+[2024-12-17T14:47:31.663+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/DAG_FOR_AWS.py took 0.068 seconds
+[2024-12-17T14:48:02.113+0000] {processor.py:186} INFO - Started process (PID=709) to work on /opt/airflow/dags/DAG_FOR_AWS.py
+[2024-12-17T14:48:02.113+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/DAG_FOR_AWS.py for tasks to queue
+[2024-12-17T14:48:02.115+0000] {logging_mixin.py:190} INFO - [2024-12-17T14:48:02.115+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/DAG_FOR_AWS.py
+[2024-12-17T14:48:02.136+0000] {processor.py:925} INFO - DAG(s) 'MI_PRIMER_DAG' retrieved from /opt/airflow/dags/DAG_FOR_AWS.py
+[2024-12-17T14:48:02.147+0000] {logging_mixin.py:190} INFO - [2024-12-17T14:48:02.146+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-17T14:48:02.163+0000] {logging_mixin.py:190} INFO - [2024-12-17T14:48:02.163+0000] {dag.py:4180} INFO - Setting next_dagrun for MI_PRIMER_DAG to 2024-12-17 09:00:00+00:00, run_after=2024-12-18 09:00:00+00:00
+[2024-12-17T14:48:02.177+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/DAG_FOR_AWS.py took 0.067 seconds
+[2024-12-17T14:48:32.541+0000] {processor.py:186} INFO - Started process (PID=774) to work on /opt/airflow/dags/DAG_FOR_AWS.py
+[2024-12-17T14:48:32.542+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/DAG_FOR_AWS.py for tasks to queue
+[2024-12-17T14:48:32.543+0000] {logging_mixin.py:190} INFO - [2024-12-17T14:48:32.543+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/DAG_FOR_AWS.py
+[2024-12-17T14:48:32.567+0000] {processor.py:925} INFO - DAG(s) 'MI_PRIMER_DAG' retrieved from /opt/airflow/dags/DAG_FOR_AWS.py
+[2024-12-17T14:48:32.577+0000] {logging_mixin.py:190} INFO - [2024-12-17T14:48:32.577+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-17T14:48:32.593+0000] {logging_mixin.py:190} INFO - [2024-12-17T14:48:32.593+0000] {dag.py:4180} INFO - Setting next_dagrun for MI_PRIMER_DAG to 2024-12-17 09:00:00+00:00, run_after=2024-12-18 09:00:00+00:00
+[2024-12-17T14:48:32.605+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/DAG_FOR_AWS.py took 0.067 seconds
+[2024-12-17T14:49:02.805+0000] {processor.py:186} INFO - Started process (PID=839) to work on /opt/airflow/dags/DAG_FOR_AWS.py
+[2024-12-17T14:49:02.806+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/DAG_FOR_AWS.py for tasks to queue
+[2024-12-17T14:49:02.807+0000] {logging_mixin.py:190} INFO - [2024-12-17T14:49:02.807+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/DAG_FOR_AWS.py
+[2024-12-17T14:49:02.829+0000] {processor.py:925} INFO - DAG(s) 'MI_PRIMER_DAG' retrieved from /opt/airflow/dags/DAG_FOR_AWS.py
+[2024-12-17T14:49:02.838+0000] {logging_mixin.py:190} INFO - [2024-12-17T14:49:02.838+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-17T14:49:02.853+0000] {logging_mixin.py:190} INFO - [2024-12-17T14:49:02.852+0000] {dag.py:4180} INFO - Setting next_dagrun for MI_PRIMER_DAG to 2024-12-17 09:00:00+00:00, run_after=2024-12-18 09:00:00+00:00
+[2024-12-17T14:49:02.864+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/DAG_FOR_AWS.py took 0.062 seconds
+[2024-12-17T14:49:32.953+0000] {processor.py:186} INFO - Started process (PID=904) to work on /opt/airflow/dags/DAG_FOR_AWS.py
+[2024-12-17T14:49:32.954+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/DAG_FOR_AWS.py for tasks to queue
+[2024-12-17T14:49:32.955+0000] {logging_mixin.py:190} INFO - [2024-12-17T14:49:32.955+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/DAG_FOR_AWS.py
+[2024-12-17T14:49:32.976+0000] {processor.py:925} INFO - DAG(s) 'MI_PRIMER_DAG' retrieved from /opt/airflow/dags/DAG_FOR_AWS.py
+[2024-12-17T14:49:32.987+0000] {logging_mixin.py:190} INFO - [2024-12-17T14:49:32.986+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-17T14:49:33.001+0000] {logging_mixin.py:190} INFO - [2024-12-17T14:49:33.001+0000] {dag.py:4180} INFO - Setting next_dagrun for MI_PRIMER_DAG to 2024-12-17 09:00:00+00:00, run_after=2024-12-18 09:00:00+00:00
+[2024-12-17T14:49:33.015+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/DAG_FOR_AWS.py took 0.065 seconds
+[2024-12-17T14:50:04.140+0000] {processor.py:186} INFO - Started process (PID=969) to work on /opt/airflow/dags/DAG_FOR_AWS.py
+[2024-12-17T14:50:04.141+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/DAG_FOR_AWS.py for tasks to queue
+[2024-12-17T14:50:04.142+0000] {logging_mixin.py:190} INFO - [2024-12-17T14:50:04.142+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/DAG_FOR_AWS.py
+[2024-12-17T14:50:04.163+0000] {processor.py:925} INFO - DAG(s) 'MI_PRIMER_DAG' retrieved from /opt/airflow/dags/DAG_FOR_AWS.py
+[2024-12-17T14:50:04.171+0000] {logging_mixin.py:190} INFO - [2024-12-17T14:50:04.171+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-17T14:50:04.185+0000] {logging_mixin.py:190} INFO - [2024-12-17T14:50:04.185+0000] {dag.py:4180} INFO - Setting next_dagrun for MI_PRIMER_DAG to 2024-12-17 09:00:00+00:00, run_after=2024-12-18 09:00:00+00:00
+[2024-12-17T14:50:04.197+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/DAG_FOR_AWS.py took 0.060 seconds
+[2024-12-17T14:50:37.331+0000] {processor.py:186} INFO - Started process (PID=1034) to work on /opt/airflow/dags/DAG_FOR_AWS.py
+[2024-12-17T14:50:37.332+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/DAG_FOR_AWS.py for tasks to queue
+[2024-12-17T14:50:37.333+0000] {logging_mixin.py:190} INFO - [2024-12-17T14:50:37.333+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/DAG_FOR_AWS.py
+[2024-12-17T14:50:37.354+0000] {processor.py:925} INFO - DAG(s) 'MI_PRIMER_DAG' retrieved from /opt/airflow/dags/DAG_FOR_AWS.py
+[2024-12-17T14:50:37.364+0000] {logging_mixin.py:190} INFO - [2024-12-17T14:50:37.364+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-17T14:50:37.380+0000] {logging_mixin.py:190} INFO - [2024-12-17T14:50:37.379+0000] {dag.py:4180} INFO - Setting next_dagrun for MI_PRIMER_DAG to 2024-12-17 09:00:00+00:00, run_after=2024-12-18 09:00:00+00:00
+[2024-12-17T14:50:37.392+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/DAG_FOR_AWS.py took 0.064 seconds
+[2024-12-17T14:51:08.172+0000] {processor.py:186} INFO - Started process (PID=1099) to work on /opt/airflow/dags/DAG_FOR_AWS.py
+[2024-12-17T14:51:08.173+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/DAG_FOR_AWS.py for tasks to queue
+[2024-12-17T14:51:08.174+0000] {logging_mixin.py:190} INFO - [2024-12-17T14:51:08.174+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/DAG_FOR_AWS.py
+[2024-12-17T14:51:08.196+0000] {processor.py:925} INFO - DAG(s) 'MI_PRIMER_DAG' retrieved from /opt/airflow/dags/DAG_FOR_AWS.py
+[2024-12-17T14:51:08.207+0000] {logging_mixin.py:190} INFO - [2024-12-17T14:51:08.207+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-17T14:51:08.224+0000] {logging_mixin.py:190} INFO - [2024-12-17T14:51:08.224+0000] {dag.py:4180} INFO - Setting next_dagrun for MI_PRIMER_DAG to 2024-12-17 09:00:00+00:00, run_after=2024-12-18 09:00:00+00:00
+[2024-12-17T14:51:08.238+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/DAG_FOR_AWS.py took 0.069 seconds
+[2024-12-17T14:51:39.119+0000] {processor.py:186} INFO - Started process (PID=1164) to work on /opt/airflow/dags/DAG_FOR_AWS.py
+[2024-12-17T14:51:39.120+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/DAG_FOR_AWS.py for tasks to queue
+[2024-12-17T14:51:39.121+0000] {logging_mixin.py:190} INFO - [2024-12-17T14:51:39.121+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/DAG_FOR_AWS.py
+[2024-12-17T14:51:39.143+0000] {processor.py:925} INFO - DAG(s) 'MI_PRIMER_DAG' retrieved from /opt/airflow/dags/DAG_FOR_AWS.py
+[2024-12-17T14:51:39.155+0000] {logging_mixin.py:190} INFO - [2024-12-17T14:51:39.155+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-17T14:51:39.171+0000] {logging_mixin.py:190} INFO - [2024-12-17T14:51:39.171+0000] {dag.py:4180} INFO - Setting next_dagrun for MI_PRIMER_DAG to 2024-12-17 09:00:00+00:00, run_after=2024-12-18 09:00:00+00:00
+[2024-12-17T14:51:39.186+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/DAG_FOR_AWS.py took 0.071 seconds
+[2024-12-17T14:52:09.985+0000] {processor.py:186} INFO - Started process (PID=1229) to work on /opt/airflow/dags/DAG_FOR_AWS.py
+[2024-12-17T14:52:09.986+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/DAG_FOR_AWS.py for tasks to queue
+[2024-12-17T14:52:09.987+0000] {logging_mixin.py:190} INFO - [2024-12-17T14:52:09.987+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/DAG_FOR_AWS.py
+[2024-12-17T14:52:10.009+0000] {processor.py:925} INFO - DAG(s) 'MI_PRIMER_DAG' retrieved from /opt/airflow/dags/DAG_FOR_AWS.py
+[2024-12-17T14:52:10.019+0000] {logging_mixin.py:190} INFO - [2024-12-17T14:52:10.019+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-17T14:52:10.036+0000] {logging_mixin.py:190} INFO - [2024-12-17T14:52:10.035+0000] {dag.py:4180} INFO - Setting next_dagrun for MI_PRIMER_DAG to 2024-12-17 09:00:00+00:00, run_after=2024-12-18 09:00:00+00:00
+[2024-12-17T14:52:10.049+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/DAG_FOR_AWS.py took 0.068 seconds
+[2024-12-17T14:52:40.804+0000] {processor.py:186} INFO - Started process (PID=1294) to work on /opt/airflow/dags/DAG_FOR_AWS.py
+[2024-12-17T14:52:40.805+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/DAG_FOR_AWS.py for tasks to queue
+[2024-12-17T14:52:40.807+0000] {logging_mixin.py:190} INFO - [2024-12-17T14:52:40.806+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/DAG_FOR_AWS.py
+[2024-12-17T14:52:40.834+0000] {processor.py:925} INFO - DAG(s) 'MI_PRIMER_DAG' retrieved from /opt/airflow/dags/DAG_FOR_AWS.py
+[2024-12-17T14:52:40.845+0000] {logging_mixin.py:190} INFO - [2024-12-17T14:52:40.845+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-17T14:52:40.864+0000] {logging_mixin.py:190} INFO - [2024-12-17T14:52:40.864+0000] {dag.py:4180} INFO - Setting next_dagrun for MI_PRIMER_DAG to 2024-12-17 09:00:00+00:00, run_after=2024-12-18 09:00:00+00:00
+[2024-12-17T14:52:40.882+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/DAG_FOR_AWS.py took 0.081 seconds
+[2024-12-17T14:53:11.920+0000] {processor.py:186} INFO - Started process (PID=1359) to work on /opt/airflow/dags/DAG_FOR_AWS.py
+[2024-12-17T14:53:11.921+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/DAG_FOR_AWS.py for tasks to queue
+[2024-12-17T14:53:11.922+0000] {logging_mixin.py:190} INFO - [2024-12-17T14:53:11.922+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/DAG_FOR_AWS.py
+[2024-12-17T14:53:11.941+0000] {processor.py:925} INFO - DAG(s) 'MI_PRIMER_DAG' retrieved from /opt/airflow/dags/DAG_FOR_AWS.py
+[2024-12-17T14:53:11.951+0000] {logging_mixin.py:190} INFO - [2024-12-17T14:53:11.950+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-17T14:53:11.965+0000] {logging_mixin.py:190} INFO - [2024-12-17T14:53:11.965+0000] {dag.py:4180} INFO - Setting next_dagrun for MI_PRIMER_DAG to 2024-12-17 09:00:00+00:00, run_after=2024-12-18 09:00:00+00:00
+[2024-12-17T14:53:11.978+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/DAG_FOR_AWS.py took 0.061 seconds
+[2024-12-17T14:53:43.991+0000] {processor.py:186} INFO - Started process (PID=1424) to work on /opt/airflow/dags/DAG_FOR_AWS.py
+[2024-12-17T14:53:43.991+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/DAG_FOR_AWS.py for tasks to queue
+[2024-12-17T14:53:43.992+0000] {logging_mixin.py:190} INFO - [2024-12-17T14:53:43.992+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/DAG_FOR_AWS.py
+[2024-12-17T14:53:44.012+0000] {processor.py:925} INFO - DAG(s) 'MI_PRIMER_DAG' retrieved from /opt/airflow/dags/DAG_FOR_AWS.py
+[2024-12-17T14:53:44.021+0000] {logging_mixin.py:190} INFO - [2024-12-17T14:53:44.021+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-17T14:53:44.036+0000] {logging_mixin.py:190} INFO - [2024-12-17T14:53:44.035+0000] {dag.py:4180} INFO - Setting next_dagrun for MI_PRIMER_DAG to 2024-12-17 09:00:00+00:00, run_after=2024-12-18 09:00:00+00:00
+[2024-12-17T14:53:44.048+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/DAG_FOR_AWS.py took 0.060 seconds
+[2024-12-17T14:54:17.282+0000] {processor.py:186} INFO - Started process (PID=1489) to work on /opt/airflow/dags/DAG_FOR_AWS.py
+[2024-12-17T14:54:17.283+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/DAG_FOR_AWS.py for tasks to queue
+[2024-12-17T14:54:17.284+0000] {logging_mixin.py:190} INFO - [2024-12-17T14:54:17.284+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/DAG_FOR_AWS.py
+[2024-12-17T14:54:17.305+0000] {processor.py:925} INFO - DAG(s) 'MI_PRIMER_DAG' retrieved from /opt/airflow/dags/DAG_FOR_AWS.py
+[2024-12-17T14:54:17.321+0000] {logging_mixin.py:190} INFO - [2024-12-17T14:54:17.321+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-17T14:54:17.338+0000] {logging_mixin.py:190} INFO - [2024-12-17T14:54:17.338+0000] {dag.py:4180} INFO - Setting next_dagrun for MI_PRIMER_DAG to 2024-12-17 09:00:00+00:00, run_after=2024-12-18 09:00:00+00:00
+[2024-12-17T14:54:17.353+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/DAG_FOR_AWS.py took 0.074 seconds
+[2024-12-17T14:54:49.712+0000] {processor.py:186} INFO - Started process (PID=1554) to work on /opt/airflow/dags/DAG_FOR_AWS.py
+[2024-12-17T14:54:49.713+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/DAG_FOR_AWS.py for tasks to queue
+[2024-12-17T14:54:49.714+0000] {logging_mixin.py:190} INFO - [2024-12-17T14:54:49.714+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/DAG_FOR_AWS.py
+[2024-12-17T14:54:49.734+0000] {processor.py:925} INFO - DAG(s) 'MI_PRIMER_DAG' retrieved from /opt/airflow/dags/DAG_FOR_AWS.py
+[2024-12-17T14:54:49.743+0000] {logging_mixin.py:190} INFO - [2024-12-17T14:54:49.743+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-17T14:54:49.758+0000] {logging_mixin.py:190} INFO - [2024-12-17T14:54:49.758+0000] {dag.py:4180} INFO - Setting next_dagrun for MI_PRIMER_DAG to 2024-12-17 09:00:00+00:00, run_after=2024-12-18 09:00:00+00:00
+[2024-12-17T14:54:49.771+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/DAG_FOR_AWS.py took 0.062 seconds
+[2024-12-17T14:55:22.214+0000] {processor.py:186} INFO - Started process (PID=1619) to work on /opt/airflow/dags/DAG_FOR_AWS.py
+[2024-12-17T14:55:22.215+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/DAG_FOR_AWS.py for tasks to queue
+[2024-12-17T14:55:22.216+0000] {logging_mixin.py:190} INFO - [2024-12-17T14:55:22.216+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/DAG_FOR_AWS.py
+[2024-12-17T14:55:22.238+0000] {processor.py:925} INFO - DAG(s) 'MI_PRIMER_DAG' retrieved from /opt/airflow/dags/DAG_FOR_AWS.py
+[2024-12-17T14:55:22.248+0000] {logging_mixin.py:190} INFO - [2024-12-17T14:55:22.247+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-17T14:55:22.264+0000] {logging_mixin.py:190} INFO - [2024-12-17T14:55:22.264+0000] {dag.py:4180} INFO - Setting next_dagrun for MI_PRIMER_DAG to 2024-12-17 09:00:00+00:00, run_after=2024-12-18 09:00:00+00:00
+[2024-12-17T14:55:22.277+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/DAG_FOR_AWS.py took 0.066 seconds
+[2024-12-17T14:55:54.037+0000] {processor.py:186} INFO - Started process (PID=1684) to work on /opt/airflow/dags/DAG_FOR_AWS.py
+[2024-12-17T14:55:54.037+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/DAG_FOR_AWS.py for tasks to queue
+[2024-12-17T14:55:54.038+0000] {logging_mixin.py:190} INFO - [2024-12-17T14:55:54.038+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/DAG_FOR_AWS.py
+[2024-12-17T14:55:54.059+0000] {processor.py:925} INFO - DAG(s) 'MI_PRIMER_DAG' retrieved from /opt/airflow/dags/DAG_FOR_AWS.py
+[2024-12-17T14:55:54.069+0000] {logging_mixin.py:190} INFO - [2024-12-17T14:55:54.069+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-17T14:55:54.085+0000] {logging_mixin.py:190} INFO - [2024-12-17T14:55:54.085+0000] {dag.py:4180} INFO - Setting next_dagrun for MI_PRIMER_DAG to 2024-12-17 09:00:00+00:00, run_after=2024-12-18 09:00:00+00:00
+[2024-12-17T14:55:54.098+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/DAG_FOR_AWS.py took 0.064 seconds
+[2024-12-17T14:56:24.838+0000] {processor.py:186} INFO - Started process (PID=1749) to work on /opt/airflow/dags/DAG_FOR_AWS.py
+[2024-12-17T14:56:24.839+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/DAG_FOR_AWS.py for tasks to queue
+[2024-12-17T14:56:24.840+0000] {logging_mixin.py:190} INFO - [2024-12-17T14:56:24.840+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/DAG_FOR_AWS.py
+[2024-12-17T14:56:24.861+0000] {processor.py:925} INFO - DAG(s) 'MI_PRIMER_DAG' retrieved from /opt/airflow/dags/DAG_FOR_AWS.py
+[2024-12-17T14:56:24.873+0000] {logging_mixin.py:190} INFO - [2024-12-17T14:56:24.873+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-17T14:56:24.889+0000] {logging_mixin.py:190} INFO - [2024-12-17T14:56:24.889+0000] {dag.py:4180} INFO - Setting next_dagrun for MI_PRIMER_DAG to 2024-12-17 09:00:00+00:00, run_after=2024-12-18 09:00:00+00:00
+[2024-12-17T14:56:24.904+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/DAG_FOR_AWS.py took 0.069 seconds

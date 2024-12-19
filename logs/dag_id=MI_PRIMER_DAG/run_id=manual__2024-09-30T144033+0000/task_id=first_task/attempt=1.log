@@ -1,0 +1,54 @@
+[2024-09-30T14:40:39.261+0000] {local_task_job_runner.py:123} INFO - ::group::Pre task execution logs
+[2024-09-30T14:40:39.274+0000] {taskinstance.py:2612} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: MI_PRIMER_DAG.first_task manual__2024-09-30T14:40:33+00:00 [queued]>
+[2024-09-30T14:40:39.280+0000] {taskinstance.py:2612} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: MI_PRIMER_DAG.first_task manual__2024-09-30T14:40:33+00:00 [queued]>
+[2024-09-30T14:40:39.281+0000] {taskinstance.py:2865} INFO - Starting attempt 1 of 5
+[2024-09-30T14:40:39.291+0000] {taskinstance.py:2888} INFO - Executing <Task(PythonOperator): first_task> on 2024-09-30 14:40:33+00:00
+[2024-09-30T14:40:39.296+0000] {warnings.py:112} WARNING - /home/***/.local/lib/python3.12/site-packages/***/task/task_runner/standard_task_runner.py:70: DeprecationWarning: This process (pid=74) is multi-threaded, use of fork() may lead to deadlocks in the child.
+  pid = os.fork()
+
+[2024-09-30T14:40:39.298+0000] {standard_task_runner.py:72} INFO - Started process 76 to run task
+[2024-09-30T14:40:39.298+0000] {standard_task_runner.py:104} INFO - Running: ['***', 'tasks', 'run', 'MI_PRIMER_DAG', 'first_task', 'manual__2024-09-30T14:40:33+00:00', '--job-id', '115', '--raw', '--subdir', 'DAGS_FOLDER/MI_PRIMER_DAG.py', '--cfg-path', '/tmp/tmp4ql1ions']
+[2024-09-30T14:40:39.298+0000] {standard_task_runner.py:105} INFO - Job 115: Subtask first_task
+[2024-09-30T14:40:39.333+0000] {task_command.py:467} INFO - Running <TaskInstance: MI_PRIMER_DAG.first_task manual__2024-09-30T14:40:33+00:00 [running]> on host b81766f0ac39
+[2024-09-30T14:40:39.393+0000] {taskinstance.py:3131} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='MI_PRIMER_DAG' AIRFLOW_CTX_TASK_ID='first_task' AIRFLOW_CTX_EXECUTION_DATE='2024-09-30T14:40:33+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2024-09-30T14:40:33+00:00'
+[2024-09-30T14:40:39.394+0000] {logging_mixin.py:190} INFO - Task instance is in running state
+[2024-09-30T14:40:39.394+0000] {logging_mixin.py:190} INFO -  Previous state of the Task instance: queued
+[2024-09-30T14:40:39.395+0000] {logging_mixin.py:190} INFO - Current task name:first_task state:running start_date:2024-09-30 14:40:39.274880+00:00
+[2024-09-30T14:40:39.395+0000] {logging_mixin.py:190} INFO - Dag name:MI_PRIMER_DAG and current dag run status:running
+[2024-09-30T14:40:39.395+0000] {taskinstance.py:731} INFO - ::endgroup::
+[2024-09-30T14:40:39.396+0000] {logging_mixin.py:190} INFO - {'conf': <***.configuration.AirflowConfigParser object at 0x7fe5b3d90dd0>, 'dag': <DAG: MI_PRIMER_DAG>, 'dag_run': <DagRun MI_PRIMER_DAG @ 2024-09-30 14:40:33+00:00: manual__2024-09-30T14:40:33+00:00, state:running, queued_at: 2024-09-30 14:40:36.165299+00:00. externally triggered: True>, 'data_interval_end': DateTime(2024, 9, 30, 9, 0, 0, tzinfo=Timezone('UTC')), 'data_interval_start': DateTime(2024, 9, 29, 9, 0, 0, tzinfo=Timezone('UTC')), 'outlet_events': <***.utils.context.OutletEventAccessors object at 0x7fe589c284a0>, 'ds': '2024-09-30', 'ds_nodash': '20240930', 'execution_date': <Proxy at 0x7fe589e57a00 with factory functools.partial(<function lazy_mapping_from_context.<locals>._deprecated_proxy_factory at 0x7fe589c26f20>, 'execution_date', DateTime(2024, 9, 30, 14, 40, 33, tzinfo=Timezone('UTC')))>, 'expanded_ti_count': None, 'inlets': [], 'inlet_events': InletEventsAccessors(_inlets=[], _datasets={}, _dataset_aliases={}, _session=<sqlalchemy.orm.session.Session object at 0x7fe5b3dd5880>), 'logical_date': DateTime(2024, 9, 30, 14, 40, 33, tzinfo=Timezone('UTC')), 'macros': <module '***.macros' from '/home/***/.local/lib/python3.12/site-packages/***/macros/__init__.py'>, 'map_index_template': None, 'next_ds': <Proxy at 0x7fe589d45e40 with factory functools.partial(<function lazy_mapping_from_context.<locals>._deprecated_proxy_factory at 0x7fe589c26f20>, 'next_ds', '2024-09-30')>, 'next_ds_nodash': <Proxy at 0x7fe589bba080 with factory functools.partial(<function lazy_mapping_from_context.<locals>._deprecated_proxy_factory at 0x7fe589c26f20>, 'next_ds_nodash', '20240930')>, 'next_execution_date': <Proxy at 0x7fe589d68c40 with factory functools.partial(<function lazy_mapping_from_context.<locals>._deprecated_proxy_factory at 0x7fe589c26f20>, 'next_execution_date', DateTime(2024, 9, 30, 14, 40, 33, tzinfo=Timezone('UTC')))>, 'outlets': [], 'params': {'Manual': True}, 'prev_data_interval_start_success': DateTime(2024, 9, 29, 9, 0, 0, tzinfo=Timezone('UTC')), 'prev_data_interval_end_success': DateTime(2024, 9, 30, 9, 0, 0, tzinfo=Timezone('UTC')), 'prev_ds': <Proxy at 0x7fe589d93f40 with factory functools.partial(<function lazy_mapping_from_context.<locals>._deprecated_proxy_factory at 0x7fe589c26f20>, 'prev_ds', '2024-09-30')>, 'prev_ds_nodash': <Proxy at 0x7fe589d914c0 with factory functools.partial(<function lazy_mapping_from_context.<locals>._deprecated_proxy_factory at 0x7fe589c26f20>, 'prev_ds_nodash', '20240930')>, 'prev_execution_date': <Proxy at 0x7fe589d90ec0 with factory functools.partial(<function lazy_mapping_from_context.<locals>._deprecated_proxy_factory at 0x7fe589c26f20>, 'prev_execution_date', DateTime(2024, 9, 30, 14, 40, 33, tzinfo=Timezone('UTC')))>, 'prev_execution_date_success': <Proxy at 0x7fe589d93340 with factory functools.partial(<function lazy_mapping_from_context.<locals>._deprecated_proxy_factory at 0x7fe589c26f20>, 'prev_execution_date_success', DateTime(2024, 9, 30, 14, 19, 58, tzinfo=Timezone('UTC')))>, 'prev_start_date_success': DateTime(2024, 9, 30, 14, 20, 1, 19486, tzinfo=Timezone('UTC')), 'prev_end_date_success': DateTime(2024, 9, 30, 14, 25, 5, 245745, tzinfo=Timezone('UTC')), 'run_id': 'manual__2024-09-30T14:40:33+00:00', 'task': <Task(PythonOperator): first_task>, 'task_instance': <TaskInstance: MI_PRIMER_DAG.first_task manual__2024-09-30T14:40:33+00:00 [running]>, 'task_instance_key_str': 'MI_PRIMER_DAG__first_task__20240930', 'test_mode': False, 'ti': <TaskInstance: MI_PRIMER_DAG.first_task manual__2024-09-30T14:40:33+00:00 [running]>, 'tomorrow_ds': <Proxy at 0x7fe589c0ac80 with factory functools.partial(<function lazy_mapping_from_context.<locals>._deprecated_proxy_factory at 0x7fe589c26f20>, 'tomorrow_ds', '2024-10-01')>, 'tomorrow_ds_nodash': <Proxy at 0x7fe589c0a2c0 with factory functools.partial(<function lazy_mapping_from_context.<locals>._deprecated_proxy_factory at 0x7fe589c26f20>, 'tomorrow_ds_nodash', '20241001')>, 'triggering_dataset_events': <Proxy at 0x7fe589c3fe80 with factory <function _get_template_context.<locals>.get_triggering_events at 0x7fe589c25940>>, 'ts': '2024-09-30T14:40:33+00:00', 'ts_nodash': '20240930T144033', 'ts_nodash_with_tz': '20240930T144033+0000', 'var': {'json': None, 'value': None}, 'conn': None, 'yesterday_ds': <Proxy at 0x7fe589c0b500 with factory functools.partial(<function lazy_mapping_from_context.<locals>._deprecated_proxy_factory at 0x7fe589c26f20>, 'yesterday_ds', '2024-09-29')>, 'yesterday_ds_nodash': <Proxy at 0x7fe589ca4780 with factory functools.partial(<function lazy_mapping_from_context.<locals>._deprecated_proxy_factory at 0x7fe589c26f20>, 'yesterday_ds_nodash', '20240929')>, 'templates_dict': None}
+[2024-09-30T14:40:49.404+0000] {taskinstance.py:3310} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/taskinstance.py", line 767, in _execute_task
+    result = _execute_callable(context=context, **execute_callable_kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/taskinstance.py", line 733, in _execute_callable
+    return ExecutionCallableRunner(
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/utils/operator_helpers.py", line 252, in run
+    return self.func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/baseoperator.py", line 406, in wrapper
+    return func(self, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/operators/python.py", line 238, in execute
+    return_value = self.execute_callable()
+                   ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/operators/python.py", line 256, in execute_callable
+    return runner.run(*self.op_args, **self.op_kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/utils/operator_helpers.py", line 252, in run
+    return self.func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/airflow/dags/MI_PRIMER_DAG.py", line 38, in execute_task
+    raise AirflowTaskTimeout('La tarea ha superado el tiempo de espera')
+airflow.exceptions.AirflowTaskTimeout: La tarea ha superado el tiempo de espera
+[2024-09-30T14:40:49.411+0000] {logging_mixin.py:190} INFO - Task instance in failure state
+[2024-09-30T14:40:49.411+0000] {logging_mixin.py:190} INFO - Task start:2024-09-30 14:40:39.274880+00:00 end:2024-09-30 14:40:49.411066+00:00 duration:10.136186
+[2024-09-30T14:40:49.412+0000] {logging_mixin.py:190} INFO - Task:<Task(PythonOperator): first_task> dag:<DAG: MI_PRIMER_DAG> dagrun:<DagRun MI_PRIMER_DAG @ 2024-09-30 14:40:33+00:00: manual__2024-09-30T14:40:33+00:00, state:running, queued_at: 2024-09-30 14:40:36.165299+00:00. externally triggered: True>
+[2024-09-30T14:40:49.412+0000] {logging_mixin.py:190} INFO - Failure caused by La tarea ha superado el tiempo de espera
+[2024-09-30T14:40:49.412+0000] {taskinstance.py:1225} INFO - Marking task as UP_FOR_RETRY. dag_id=MI_PRIMER_DAG, task_id=first_task, run_id=manual__2024-09-30T14:40:33+00:00, execution_date=20240930T144033, start_date=20240930T144039, end_date=20240930T144049
+[2024-09-30T14:40:49.423+0000] {taskinstance.py:340} INFO - ::group::Post task execution logs
+[2024-09-30T14:40:49.437+0000] {local_task_job_runner.py:266} INFO - Task exited with return code 2
+[2024-09-30T14:40:49.454+0000] {taskinstance.py:3900} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2024-09-30T14:40:49.456+0000] {local_task_job_runner.py:245} INFO - ::endgroup::
